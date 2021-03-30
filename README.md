@@ -1,5 +1,20 @@
-    The quick increase of vehicles is a great puzzling problem, along with traffic accidents. The vehicular networks and the intelligent systems are considered as new solutions to improve transportation efficiency and safety. 
-    Traffic sign detection and recognition are indispensable for intelligent terminals of vehicular networks or self-driving cars. Deep learning can be one efficient solution for the complicated detection task which requires high accuracy in real-time for multi-object detection. The traffic signs deployed along the highway carry the specific management content and behavior rules of highway traffic. At present, autonomous vehicles mainly obtain this kind of information through their own sensor devices. Due to the limitations of technology, in some complex road conditions and environments, the image detection and recognition of traffic signs are affected by extreme weather, such as snow, fog, dark clouds, dust, rain and so on, resulting in low visibility, as well as extreme conditions, such as strong sunlight and night street lighting, poor light at night and so on traffic information, there are certain security risks. In order to better express the road traffic prohibition, restriction and compliance status to the automatic driving vehicles, and inform them of the road condition and traffic status information, it is necessary to use the information and digital technology means to release the information carried by the existing traffic signs and markings, as well as the proprietary information required by the automatic driving to the automatic driving vehicles through the information way, so as to improve the recognition rate.
-   General purpose object detection should be fast, accurate, and able to recognize a wide variety of objects. Since the introduction of neural networks, detection frameworks have become increasingly fast and accurate. The object detection task is usually divided into two key subtasks: the object classification and the object location. So far, there are two types of strategies. One is object detection based on regression represented by OverFeat, YOLO and SSD.
+# Sentence Transformers: Multilingual Sentence Embeddings using BERT / RoBERTa / XLM-RoBERTa & Co. with PyTorch
+
+This framework provides an easy method to compute dense vector representations for sentences, paragraphs, and images. The models are based on transformer networks like BERT / RoBERTa / XLM-RoBERTa etc. and achieve state-of-the-art performance in various task. Text is embedding in vector space such that similar text is close and can efficiently be found using cosine similarity.
 
 
+We provide an increasing number of **[state-of-the-art pretrained models](https://www.sbert.net/docs/pretrained_models.html)** for more than 100 languages, fine-tuned for various use-cases.
+
+Further, this framework allows an easy  **[fine-tuning of custom embeddings models](https://www.sbert.net/docs/training/overview.html)**, to achieve maximal performance on your specific task.
+
+
+For the **full documentation**, see [www.SBERT.net](https://www.sbert.net), as well as our publications:
+- [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084) (EMNLP 2019)
+- [Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation](https://arxiv.org/abs/2004.09813) (EMNLP 2020)
+- [Augmented SBERT: Data Augmentation Method for Improving Bi-Encoders for Pairwise Sentence Scoring Tasks](https://arxiv.org/abs/2010.08240) (NAACL 2021)
+- [The Curse of Dense Low-Dimensional Information Retrieval for Large Index Sizes](https://arxiv.org/abs/2012.14210) (arXiv 2020)
+
+
+
+## Installation
+We recommend **Python 3.6** or higher, **[PyTorch 1.6.0](https://pytorch.org/get-started/locally/)** or higher and **[transformers v3.1.0](https://github.com/huggingface/transformers)** or higher. The code does **not** work with Python 2.7.
